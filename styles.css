@@ -1,0 +1,132 @@
+body,html{
+  margin:0;
+  padding:0;
+  
+  color:white;
+  height:100%;
+  background-color:white;
+}
+
+#name{
+  padding-top:10vw;
+  padding-bottom:12vw;
+  background:url("./img/sheekKabab.jpg");
+  background-size:contain;
+  margin:0;
+}
+
+#border{
+  border:.3em solid blue;
+  margin:0 13vw;
+  border-radius:.25em;
+  font-family:helvetica;
+}
+
+#container{
+  
+  
+  padding:2vw 2vw;
+  height:100%;
+  color:black;
+  
+  margin:1em;
+  
+  border-radius:.3em;
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+}
+
+#reviewer{
+  margin-left:5vw;
+}
+
+#logo{
+  padding:2em;
+  font-weight:bold;
+  position:absolute;
+  top:0;
+}
+
+
+#name,#logo{
+  font-family:courier;
+  color:#ff6666;
+  text-shadow: 0.07em 0 white, 0 0.07em white, -0.07em 0 white, 0 -0.07em white;
+}
+
+#review1{
+  font-weight:bold;
+  font-style:italic;
+}
+
+#tabs{
+  display:flex;
+  border:none;
+  justify-content:space-around;
+  text-align:center;
+  background-color:blue;
+  color:white;
+  
+}
+
+#tabs > span{
+  border-radius:.25em;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+  height:100%;
+  width:100%;
+  padding:.5em;
+  font-weight:bold;
+}
+
+#tabs > span:hover{
+  background-color:orange;
+}
+
+
+.tabSelected{
+  background-color:white;
+  color:black;
+}
+
+
+#menuContainer{
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+}
+
+.menuItem{
+  border:1px solid black;
+  width:10em;
+  margin:2em;
+  box-shadow: 2px 2px 5px black;
+  padding:1em;
+}
+
+.menuItem:hover{
+  
+  opacity:.4;
+}
+
+.itemName{
+  font-weight:bold;
+  text-align:center;
+}
+
+.itemPrice{
+  text-align:right;
+}
+
+@media (max-width:800px){
+  #logo{
+    font-size:.5em;
+  }
+  #border{
+    margin:0 1em;
+  }
+  .menuItem{
+    width:70vw;
+    margin:1.5em;
+  }
+}
