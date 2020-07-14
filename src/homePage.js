@@ -68,7 +68,7 @@ function loadHomePageContents()
 	let review4Text = h.mE("span", "", "");
 
 	review1Text.innerText = "My God! This places food tastes like the way my mother used to make it.";
-	review2Text.innerText = "Even tho I am not from this planet I have never tasted somethig so good but the boiled potatoes feels totally tasteless";
+	review2Text.innerText = "Even tho I am not from this planet I have never tasted something so good but the boiled potatoes feels totally tasteless";
 	review3Text.innerText = "Waffles Waffles Waffles.";
 	review4Text.innerText = "I love Pie. This place's pie hypnotized me yo. You better check it out.";
 

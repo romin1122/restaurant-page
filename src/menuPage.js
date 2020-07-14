@@ -50,7 +50,7 @@ function loadMenuPageContents()
 	addFoodItem("Pudding", "60 tk", "images/pudding.jpg");
 	addFoodItem("Smoothie", "150 tk", "images/smoothie.jpg");
 	addFoodItem("Cocacola", "70 tk", "images/cocacola.jpg");
-	addFoodItem("Pepsi", "70 tk", "images/pepsi.jpg");
+	addFoodItem("Pepsi", "70 tk", "images/pepsi 2.jpg");
 
 
 	let homeFBtn = h.mE("button", "id", "homeFooterBtn");
