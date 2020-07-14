@@ -1,132 +1,244 @@
-body,html{
-  margin:0;
-  padding:0;
-  
-  color:white;
-  height:100%;
-  background-color:white;
+body, html
+{
+	
+	color: #FFFFFFFF;
+	height: 100%;
+	width: 100%;
+	font-family: monospace;
 }
 
-#name{
-  padding-top:10vw;
-  padding-bottom:12vw;
-  background:url("./img/sheekKabab.jpg");
-  background-size:contain;
-  margin:0;
+#top
+{
+	height:3em;
+	width: 100%;
+	background-image: radial-gradient(circle, #009DEBFF, #5500FFFF);
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
 }
 
-#border{
-  border:.3em solid blue;
-  margin:0 13vw;
-  border-radius:.25em;
-  font-family:helvetica;
+#restaurantTitle
+{
+	font-weight: bolder;
+	font-size: 1.3em;
+	margin-left:1em;
 }
 
-#container{
-  
-  
-  padding:2vw 2vw;
-  height:100%;
-  color:black;
-  
-  margin:1em;
-  
-  border-radius:.3em;
-  border-top-left-radius:0;
-  border-top-right-radius:0;
+#cart
+{
+	text-align:right;
+	height: 2.3em;
+	width:2.3em;
+	margin-right:1.8em;
 }
 
-#reviewer{
-  margin-left:5vw;
+#coupon
+{
+	background-color: red;
+	height:4em;
+	width:70%;
+	margin:.5em auto .5em auto;	
+	display: flex;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	padding:.5em;
 }
 
-#logo{
-  padding:2em;
-  font-weight:bold;
-  position:absolute;
-  top:0;
+#coupon > img
+{
+	transform: rotate(-20deg);
+	height:3em;
+	width:5em;
+	padding:.5em;
+}
+
+#mainTabs
+{
+	display:flex;
+	margin:1em 6em 0 6em;
+}
+
+#mainTabs > button
+{
+	color:white;
+	padding:.7em;
+	width:12em;
+	border-radius: none;
+	border:none;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	background-color: #2f46f6;
+	font-weight: bold;
+}
+
+#tabContent
+{
+	margin: 0 6em;
+	border: .3em solid #2f46f6;
+	padding: 2em 4em;
+	background-color: #00005FFF;
+	margin-bottom: 1.5em;
+}
+
+#homeContents
+{
+	text-align: center;
+}
+
+#reasonTitle, #reviewsTitle
+
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#reasonChef
+{
+	display:flex;
+	flex-direction: column;
+}
+
+#chefImages
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding:.5em;
+}
+
+#chefImages > img, #reasonEquipment > img, #reasonOrganic > img
+{
+	height:7em;
+	width: 7em;
+	border-radius: 50%;
+	border:5px solid #00C6C6FF;
+}
+
+#chefImages > #chef2
+{
+	height:8em;
+	width: 8em;
+}
+
+#reasonEquipment
+{
+	display:flex;
+	flex-direction: column;
+}
+
+#reasonEquipment > img
+{
+	margin-left: auto;
+	margin-right: auto;
+	height:8em;
+	width: 8em;
+}
+
+#reasonEquipment > span
+{
+	margin-top: 1em;
+}
+
+#reasonOrganic > img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#reviews > div
+{
+	border: 5px solid #00C6C6FF;
+	text-align: left;
+	background-color: #001D00FF;
+	padding: 2em;
+	border-radius: .5em;
+	margin: 1em;
+}
+
+#map > span
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#audio
+{
+	padding:.3em;
+	width:10em;
+	font-size: 1.4em;
+}
+
+input, textarea
+{
+	background-color: #00005FFF;
+	color: white;
+	border: none;
+	padding:.5em;
+	font-size: 1.1em;
+	border-bottom: 1px solid white;
+}
+
+form > button
+{
+	padding: .4em;
+	font-weight: bolder;
+	background-color: #2f46f6;
+	color:white;
+}
+
+#foodContainer 
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+#foodContainer > div > img
+{
+	height: 10em;
+	width: 10em;
+	border:1px solid white;
+}
+
+#foodContainer > div
+{
+	border: 3px solid #00C6C6FF;
+	height: 14em;
+	width:10em;
+	padding:1em;
+	font-weight: bold;
+	margin:.05em;
 }
 
 
-#name,#logo{
-  font-family:courier;
-  color:#ff6666;
-  text-shadow: 0.07em 0 white, 0 0.07em white, -0.07em 0 white, 0 -0.07em white;
+
+#footerNavButtons
+{
+	display:flex;
+	justify-content: space-around;
 }
 
-#review1{
-  font-weight:bold;
-  font-style:italic;
-}
-
-#tabs{
-  display:flex;
-  border:none;
-  justify-content:space-around;
-  text-align:center;
-  background-color:blue;
-  color:white;
-  
-}
-
-#tabs > span{
-  border-radius:.25em;
-  border-bottom-left-radius:0;
-  border-bottom-right-radius:0;
-  height:100%;
-  width:100%;
-  padding:.5em;
-  font-weight:bold;
-}
-
-#tabs > span:hover{
-  background-color:orange;
+#footerNavButtons > button
+{
+	padding: 1em;
+	width: 10em;
+	background-color: #2f46f6;
+	color: white;
+	font-weight: bold;
+	border: 3px solid #5D5D5DFF;
+	outline: none;
 }
 
 
-.tabSelected{
-  background-color:white;
-  color:black;
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	background-color: #3e2afa;
+	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
-
-#menuContainer{
-  display:flex;
-  flex-wrap:wrap;
-  width:100%;
-}
-
-.menuItem{
-  border:1px solid black;
-  width:10em;
-  margin:2em;
-  box-shadow: 2px 2px 5px black;
-  padding:1em;
-}
-
-.menuItem:hover{
-  
-  opacity:.4;
-}
-
-.itemName{
-  font-weight:bold;
-  text-align:center;
-}
-
-.itemPrice{
-  text-align:right;
-}
-
-@media (max-width:800px){
-  #logo{
-    font-size:.5em;
-  }
-  #border{
-    margin:0 1em;
-  }
-  .menuItem{
-    width:70vw;
-    margin:1.5em;
-  }
-}
