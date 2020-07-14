@@ -1,0 +1,54 @@
+@media (max-width:800px) 
+{
+	#coupon > div > span
+	{
+		font-size: 70%;
+		width:80%;
+	}
+
+	#tabContent 
+	{
+		margin: 0 1em;
+	}
+	
+	#mainTabs
+	{
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	#tabContent
+	{
+		padding: 2em 1em;
+	}
+
+	#chefImages > img, #reasonEquipment > img, #reasonOrganic > img
+	{
+		height: 5em;
+		width: 5em;
+	}
+	#chefImages > #chef2
+	{
+		height:5em;
+		width: 5em;
+	}
+
+	#reviews > div
+	{
+		padding:.8em;
+	}
+	
+	#foodContainer > div > img
+	{
+		height: 4em;
+		width: 4em;
+
+	}
+
+	#foodContainer > div
+	{
+		height: 9em;
+		width: 4.5em;
+		padding:.5em;
+	}
+}
